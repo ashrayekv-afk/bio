@@ -1,0 +1,400 @@
+{
+  "version": "7.4.1-domain-replacement",
+  "model_version": "3.1.0-interval-half",
+  "distribution": "complete-99-files",
+  "note": "Corrected lower-workspace replacement: maps/projections UI removed; one bilateral biological-domain dropdown. SOURCE rules and NKPI/extraction unchanged from 7.4.0.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f576cb61bb9b84d44ff494f92ebd48a048ae41475d72d57018be6df7f44d959d"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "e3374fa51ef225b4dc0cf0cc49fd784fff3638928bf20253ee85d54e4f1f2a29"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c713af0305f113811d28962a5782607c4963a7973a341a582d361fa1fba80f24"
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "96d5a885b2dc96b0c0c1d341fba90a83beac0abd3383543008a57d3999301901"
+    },
+    {
+      "path": "README.md",
+      "sha256": "40446bc5e98abcdc79442ef6b939f12d2acbc3cb3f579f3b349f577723fcf016"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b7f55c558cf726f976a2c9c829f64413c8a0b40bc0ef6b429222fb7e93691ffe"
+    },
+    {
+      "path": "UPDATE_INSTRUCTIONS.md",
+      "sha256": "9fe6e17110b7e035caf219d3e0eaf8505b76ba581f3e8a9154ccb896c0ee7d4b"
+    },
+    {
+      "path": "components/app.css",
+      "sha256": "3ac54e84b473dd59b02cc702a9b12483b37632fc63878c3009bc754af720e73a"
+    },
+    {
+      "path": "components/app.js",
+      "sha256": "c5bfe62db51b5084b29a70fd2adeae46765f1cff62427c2a11fcf185f47d0641"
+    },
+    {
+      "path": "components/cornea/auto_viewer.css",
+      "sha256": "c5185d702b206f6577b97da8de17ae20eb475ecd7c82a058489af59ca7696c5c"
+    },
+    {
+      "path": "components/cornea/auto_viewer.js",
+      "sha256": "c8a6227e8e9fcac2bff83610db9c676b7d899c6719476324f5e14ed2859522a5"
+    },
+    {
+      "path": "components/cornea/calibration_profiles.js",
+      "sha256": "adfb9156a675ea625f3ad53f1f91260980e7b21cffc96d851a4354086f10d5bd"
+    },
+    {
+      "path": "components/cornea/index.html",
+      "sha256": "57f12347859c0c58212e97942f3abf1700152c569981b38a67928f0fa80bfc37"
+    },
+    {
+      "path": "components/cornea/map_texture.js",
+      "sha256": "ac03a631fafba8496e935bf3f4637a3f4156666665292b5c084d50f8a0689f90"
+    },
+    {
+      "path": "components/cornea/mesh_renderer.js",
+      "sha256": "ddb99bbc8a7770d6a2f7edb64fff8a8b84b98a2bc9ea43f247ceee7d236a607c"
+    },
+    {
+      "path": "components/cornea/numeric.html",
+      "sha256": "6f7d0e2ef0a137988dcf8d51b0890e53e1d8faba02b73afabc50e1b27d9781fa"
+    },
+    {
+      "path": "components/cornea/numerical_eye.js",
+      "sha256": "3bf1395c7655bc78f2d209deca3332087289f9c7796cf9e414ad3b836ce7cbab"
+    },
+    {
+      "path": "components/cornea/numerical_maps.js",
+      "sha256": "9c6299a311a3ec53d92f2237da6c7eb8114eefd17f4b21f040801dd499a60d63"
+    },
+    {
+      "path": "components/cornea/reference_eye.js",
+      "sha256": "120aabaa95e49c29b6d6ddba321bdec4a8462a1109dcd9adaf4b2795cca7f798"
+    },
+    {
+      "path": "components/cornea/report_comparison.js",
+      "sha256": "069cdfceac5a18ead206b53c9a47ea80098b94c7a88b2e9bd420d045ee19b096"
+    },
+    {
+      "path": "components/cornea/review_markers.js",
+      "sha256": "952c9516c19d2d3b29cb92d40edd317b93d8bdf3ae9b596fce471305fed3bb74"
+    },
+    {
+      "path": "components/cornea/surface_schema.js",
+      "sha256": "8e52a6fe95f91ecd4bb3f47315f3cde2c8ccd810f96e45f35d043e88450a7559"
+    },
+    {
+      "path": "components/cornea/synthetic_demo.json",
+      "sha256": "c50e65eb144851c9588cdae8f99ed7786f127f77d1e292f3ff36c14e3d6fb164"
+    },
+    {
+      "path": "components/cornea/viewer.css",
+      "sha256": "fd6aa196f1c064a92600aa2d33d4cbb368686ed6080fe6ee7817022c46bd5414"
+    },
+    {
+      "path": "components/cornea/viewer.js",
+      "sha256": "8f6840e5858a3c7d0c75722750f11fe26e08fd0cdde7d68ed42f89a8f07b0eaa"
+    },
+    {
+      "path": "components/cornea/visit_comparison.js",
+      "sha256": "b984570fcb5e72bb9e2e6bfb1c46fef29881ae8083bfe156b3fe011de980c3ce"
+    },
+    {
+      "path": "components/extractor/app.js",
+      "sha256": "8812cbb5c6e2d70d6463a1a4021fbcd75e261beae5fd432ca098fa57f7e05d61"
+    },
+    {
+      "path": "components/extractor/archive_integration.js",
+      "sha256": "ee3bca7ba53f464af74bb46c2c44f7811e532e61e348c30c674967108b71242a"
+    },
+    {
+      "path": "components/extractor/archive_reader.js",
+      "sha256": "07ebe025e2137a5329eb8d109b9860f11515846a533a6570488ec6c8ba3d6e86"
+    },
+    {
+      "path": "components/extractor/auto_surfaces.js",
+      "sha256": "5578de884ac46713e8b6d919a4d5fbd08ceced594c1486601f1a551bc1324011"
+    },
+    {
+      "path": "components/extractor/bilateral_review.js",
+      "sha256": "1ccddac199770d6ec3b7d05160396a03e950184cd094be64a8650617baec4622"
+    },
+    {
+      "path": "components/extractor/dicom_reports.js",
+      "sha256": "fd19e47bb0b82c44d0278e033c779e09601c57318170231fb875fbfc410224ee"
+    },
+    {
+      "path": "components/extractor/extraction_integrity.js",
+      "sha256": "11ef607ec43f1e41abe5844c62de471b73cbbb33b593b71d91a05ede45f9877b"
+    },
+    {
+      "path": "components/extractor/import_repair.css",
+      "sha256": "7cb501b023f8815aa3052d83904a39945c03fb0bc81eb42dd3ff2e1bf7aae1cb"
+    },
+    {
+      "path": "components/extractor/index.html",
+      "sha256": "14746735098ddf324e0f2dcdd15cca50f697f1e0a9cdb9db4cbf073bd95a8cc2"
+    },
+    {
+      "path": "components/extractor/integration.css",
+      "sha256": "6b064e69801241fa639a939befb5266f1525194672571422c2c75ffb2b24332b"
+    },
+    {
+      "path": "components/extractor/numeric_import.js",
+      "sha256": "d1e804e36cffc8c6835f407a36d4e6797f7743029fe64b686650b1e44f54ab0c"
+    },
+    {
+      "path": "components/extractor/report_discovery.js",
+      "sha256": "e6e894c5661b82efc8beaf5020d0c4556487f59c8bd4244a0708beda53647e58"
+    },
+    {
+      "path": "components/extractor/report_maps.js",
+      "sha256": "d97619ec228a465548bfc2b36e8ae681364de0d65a9087d401680774e938d81c"
+    },
+    {
+      "path": "components/extractor/review_fixes.js",
+      "sha256": "1793919cf4604f1bfc74689ac7d38803194baee57f1cb94db33ba7d2671f9f8e"
+    },
+    {
+      "path": "components/extractor/streamlit_bridge.js",
+      "sha256": "d1e533fc343d0daf5805b5760ef130531e6757e9617676253a86930a3ed3096b"
+    },
+    {
+      "path": "components/extractor/styles.css",
+      "sha256": "b3e93705c351e68be0a59838e02b04493f3d48c372fb7c7ab95682b917d22bbf"
+    },
+    {
+      "path": "components/extractor/vendor/JSZIP_LICENSE.txt",
+      "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4"
+    },
+    {
+      "path": "components/extractor/vendor/jszip-3.10.1.min.js",
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+    },
+    {
+      "path": "components/impact_table.js",
+      "sha256": "b004109bad24005f7d3fab6f7705e06d4acc0ad5d663011942dc8ca280e9015d"
+    },
+    {
+      "path": "components/index.html",
+      "sha256": "17cb78b13d9410cdb84316bcf696299133d48615da7abe9239f6fb44deff053c"
+    },
+    {
+      "path": "components/progression_summary.js",
+      "sha256": "ff0b50220ab92062b8bed39f139a890ffabcccc60c7480839d927b908155a3b4"
+    },
+    {
+      "path": "components/report_gallery.js",
+      "sha256": "ee12bc292dbd82e16c3390a3c905e74e82241bad7d46dbc91908e779c698efbb"
+    },
+    {
+      "path": "components/schema.js",
+      "sha256": "b4a02aa028ba18eccca230c436950268eb50deae400e9af3d27b07620bbc1dc6"
+    },
+    {
+      "path": "components/trajectory/cohort_data.js",
+      "sha256": "3f2b49f058c4e7bbfbb4a2da4c76cfd3524dcff15f849f1fd7ad8dcd8af145ff"
+    },
+    {
+      "path": "components/trajectory/index.html",
+      "sha256": "12927deb722c02187700e33cae66b8e6aa12c251f5e6b38863e121f1fa35e635"
+    },
+    {
+      "path": "components/trajectory/model_data.js",
+      "sha256": "baf13a505bd354e02edc49c891caef55d6eab70ff78ef597a34f729357801773"
+    },
+    {
+      "path": "components/trajectory/trajectory.css",
+      "sha256": "7d4faf302c641b5fbdad88113fad1fa8d8b5a77e684f290fa69a779406ee9658"
+    },
+    {
+      "path": "components/trajectory/trajectory.js",
+      "sha256": "5680195edf2e57312456c41599f41d1f0d1a7746a3225ad0206726fcead64121"
+    },
+    {
+      "path": "components/trajectory/trajectory_core.js",
+      "sha256": "7075564d53057f3d42a6e2b5f8efaf6097ca971f76b73699a04b5ef100bd8a03"
+    },
+    {
+      "path": "docs/AUDIT_AND_REVIEW.md",
+      "sha256": "bc7fa05d3082b42cf493f9d5d67045b508d948b1c07a92d22368af70e0194070"
+    },
+    {
+      "path": "docs/AUTO_DICOM_IMPORT.md",
+      "sha256": "7332b9f0b05a76fef27f0177b341280ad0c725108e7f39fd9796258a5fc0bf94"
+    },
+    {
+      "path": "docs/BILATERAL_IMPORT_FIX.md",
+      "sha256": "8d6057f388a889a432cc4140adec7031a0fb906314b8e09ad96638de3a98ad67"
+    },
+    {
+      "path": "docs/IMPORT_REPAIR.md",
+      "sha256": "82e877caf6470ba00dbfe280a93e3f99e3b2282205ffcf5c500f3da3824c91f5"
+    },
+    {
+      "path": "docs/INPUT_RESULT_AUDIT.md",
+      "sha256": "9630db277a3d135cbf0f145a422f7a0562b67bd6429de7bd6f080b1be901f08f"
+    },
+    {
+      "path": "docs/MAP_COMPARISON.md",
+      "sha256": "6d3e5364392d9dec0f8757850d727179e60c27d01b7904515ac46b5a24868e84"
+    },
+    {
+      "path": "docs/NUMERICAL_MAPS.md",
+      "sha256": "ed990dd14cdb36d39a28c43fb37f08810d1f4db469645836c88a489b3350da6b"
+    },
+    {
+      "path": "docs/SURFACE_DATA.md",
+      "sha256": "a3b1d44e720b6cd907dbc552255b214aa1ffd1c6889d82fb854c52e583102acb"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "sha256": "f81b9789137ddce9f5cae5810b8112ba436c8a1e101e938db9709ed3ccb17d5c"
+    },
+    {
+      "path": "docs/TRAJECTORY_METHODS.md",
+      "sha256": "41488d2bc201321ca74e3d7782de25e4b70a454c100d057555d04b067d6c56f6"
+    },
+    {
+      "path": "docs/TREATMENT_BENEFIT.md",
+      "sha256": "5f5f61bb64112121ed12f48f8ee44d691020731a20790b9c1c8a08458e65f4ee"
+    },
+    {
+      "path": "docs/VISUAL_CHANGE.md",
+      "sha256": "9d694fcdd8894e4af38017b0257809cf24e2fcfd5c97534c6b4f63d0e6fb1fe4"
+    },
+    {
+      "path": "kcn_dual_calculator_app.py",
+      "sha256": "52c7e538550f753e8ef33326adb3aa2eb2bfeaa983fa725f51e0ae3b5af9cb1a"
+    },
+    {
+      "path": "models/release.json",
+      "sha256": "371d0242e22ca584c25bf65133e62bbd6d2cf508dd6313375e27caabb9534bd0"
+    },
+    {
+      "path": "models/release_model_baseline.json",
+      "sha256": "1d300a50bbc7238b4dae0e29da31f40fa06cac040ad58ccf5cad4ebcc79e37f8"
+    },
+    {
+      "path": "models/release_model_longitudinal.json",
+      "sha256": "eed74a1a1c4ba2e05d1df1adc8dc9930d46f412b5cf5d400e18a8196868739c0"
+    },
+    {
+      "path": "nkpi/__init__.py",
+      "sha256": "134cff0ed074a61629893e020a9a2fbbc8597398ff8b64db92bcf7fa785468d2"
+    },
+    {
+      "path": "nkpi/assessment.py",
+      "sha256": "4ec8c0a6186560760fc2775e635e301b685dc390ee2f300e6c9bea9f46ec401c"
+    },
+    {
+      "path": "nkpi/impact_audit.py",
+      "sha256": "7b55d15b254abb232350af80cb5a0b5b1d61fef2b5e33037a7c370ce7ac948c7"
+    },
+    {
+      "path": "nkpi/reports.py",
+      "sha256": "57ddf20395832929832e2b27ac1825c7c96be82d8bc604f9d1b76b84f3452e4b"
+    },
+    {
+      "path": "nkpi/service.py",
+      "sha256": "f7f8459d4d853404404119924cc6f94ae2007a821bda587dbc86a1b47832808d"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5ec2b0ad73534467297db5cd471fbbe029fdda88d768b970c1d7714efdfb844d"
+    },
+    {
+      "path": "research/README.md",
+      "sha256": "054c873c9ce6cdf9f04c3ceeabbd105b2037cb912ca51797705aadf68714da9b"
+    },
+    {
+      "path": "research/evaluate_trajectory.py",
+      "sha256": "4e0ea0ff5de85a98589485992282290bad4df66984db61eeb1bf135f7257a3a3"
+    },
+    {
+      "path": "research/reconstruct_source.py",
+      "sha256": "c6729108974000a35431ae4743f02bd14e88705bba66d19f9f309427b032785b"
+    },
+    {
+      "path": "research/trajectory_feasibility.json",
+      "sha256": "07306cb00f739695c4fa1b348f2fdd9af31de9317803000a284404d8e4f22aff"
+    },
+    {
+      "path": "tests/test_auto3d.js",
+      "sha256": "136270373183a18bdbddf66efdb5e29a12f0234edbd5aa5a1258ed90bc9688f8"
+    },
+    {
+      "path": "tests/test_auto_import_merge.cjs",
+      "sha256": "384db34173afa53dc82def5408876a6b4a3ca4f300b003cfa8f3bf01518d26ca"
+    },
+    {
+      "path": "tests/test_bilateral_import.cjs",
+      "sha256": "9a7d319f774b2eae25776458a3150be0f79b59c066748c9a81e68cc30cb271f8"
+    },
+    {
+      "path": "tests/test_bilateral_review.cjs",
+      "sha256": "384d5f95a2272ccc6775bd3c044eb667f37075251f864a1ee3719dd4232e7542"
+    },
+    {
+      "path": "tests/test_extraction_integrity.cjs",
+      "sha256": "647c17194082b6dd3c4fd5b86261977283e2008525cafdab2501745fd822231c"
+    },
+    {
+      "path": "tests/test_map_changes.js",
+      "sha256": "d758d98e3872ea74f673570ffd8c78cde2e89a90fdecf76e258ae28990f38927"
+    },
+    {
+      "path": "tests/test_map_identification.cjs",
+      "sha256": "06c77c96a00c5c443108ece986713fcc950034c1f552c9683b5144140867e6b8"
+    },
+    {
+      "path": "tests/test_model_interval.py",
+      "sha256": "a6103c771ba8942bbf3ea0ed082a8c3c913d6b4fcf762b553cb6eae7cdb0eba1"
+    },
+    {
+      "path": "tests/test_numerical_maps.cjs",
+      "sha256": "618c51b6013a84ea903bacd773f0e6868a8925c630a3dbf057ea66a21d3b9248"
+    },
+    {
+      "path": "tests/test_progression_summary.cjs",
+      "sha256": "54cde97a232c4ebcae0dfa8efbac70a5f88c86e826df8be9cbcd1b1022ac5fa4"
+    },
+    {
+      "path": "tests/test_report_comparison.cjs",
+      "sha256": "a7a4158e4efe701616f82c5d22dde7bb567ee3069970aadc48104fb8a2676c38"
+    },
+    {
+      "path": "tests/test_surface.js",
+      "sha256": "9f29e527d8a220a3616bcc099d2862e503821212af8fcb6a8dcd6e4bed2d69b3"
+    },
+    {
+      "path": "tests/test_trajectory.cjs",
+      "sha256": "531047fe182519c6e284e8ed74bf0dd948d511b9066c733882c6cae772dd822d"
+    },
+    {
+      "path": "tests/test_trajectory_ui.cjs",
+      "sha256": "a6264ca2e1b2f8bb9f1dfdb5b3c7c32c788bfa3043ea9cd2c41845b502a97ea3"
+    },
+    {
+      "path": "tests/test_viewer_integration.cjs",
+      "sha256": "4e88d73ebb21184d8006b638eb33876ce1f81956a587afe0f6957ea3941e02a6"
+    },
+    {
+      "path": "tools/convert_surface_csv.py",
+      "sha256": "f4a08bd6a7878d677de22b65ab58533d9be43da00b21adeaba1dc521d93114e6"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "sha256": "2c0af89ca302c343b2cf4e99dbc2d9f80cbf6dd54423b8332e797d40c38669ed"
+    }
+  ]
+}
